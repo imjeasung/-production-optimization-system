@@ -1,5 +1,15 @@
+# Production Optimization System Dependencies
+# 생산 최적화 시스템 의존성
+
+# Core Dependencies | 핵심 의존성
 numpy>=1.21.0
 pandas>=1.3.0
 matplotlib>=3.4.0
 seaborn>=0.11.0
+
+# Report Generation | 보고서 생성
 openpyxl>=3.0.7
+
+# Optional Dependencies | 선택적 의존성
+# plotly>=5.0.0  # For advanced visualizations | 고급 시각화용
+# scikit-learn>=1.0.0  # For ML enhancements | 머신러닝 강화용
