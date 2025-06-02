@@ -55,7 +55,7 @@ openpyxl (for Excel reports)
 ### Installation | 설치
 ```bash
 # Clone the repository | 리포지토리 클론
-git clone https://github.com/yourusername/production-optimization-system.git
+git clone https://github.com/imjeasung/-production-optimization-system.git
 cd production-optimization-system
 
 # Install dependencies | 의존성 설치
@@ -248,10 +248,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author | 개발자
 
-**[Your Name]** | **[귀하의 이름]**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+**[LimJaeSung]** | **[임재성]**
+- GitHub: [@imjeasung](https://github.com/imjeasung)
+- Email: jeasunglim39@gmail.com
 
 ---
 
