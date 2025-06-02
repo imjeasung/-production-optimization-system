@@ -1,0 +1,121 @@
+{
+    "생산_라인": [
+        {
+            "line_id": "LINE_A",
+            "line_name": "Assembly Line A",
+            "production_capacity": 50.0,
+            "operating_cost": 30000.0,
+            "max_working_hours": 16.0,
+            "defect_rate": 0.03,
+            "investment_cost": 0.0,
+            "maintenance_cost": 50000.0,
+            "compatible_products": ["SMARTPHONE", "TABLET", "EARBUDS"]
+        },
+        {
+            "line_id": "LINE_B", 
+            "line_name": "Assembly Line B",
+            "production_capacity": 30.0,
+            "operating_cost": 20000.0,
+            "max_working_hours": 20.0,
+            "defect_rate": 0.05,
+            "investment_cost": 0.0,
+            "maintenance_cost": 30000.0,
+            "compatible_products": ["SMARTPHONE", "TABLET", "EARBUDS"]
+        }
+    ],
+    "제품": [
+        {
+            "product_id": "SMARTPHONE",
+            "product_name": "Smartphone",
+            "material_cost": 150000.0,
+            "selling_price": 300000.0,
+            "target_production": 200.0,
+            "min_demand": 100.0,
+            "max_defect_rate": 0.05,
+            "material_supply_limit": 500.0,
+            "production_times": {
+                "LINE_A": 8.0,
+                "LINE_B": 12.0
+            },
+            "setup_times": {
+                "LINE_A": 30.0,
+                "LINE_B": 45.0
+            },
+            "setup_costs": {
+                "LINE_A": 10000.0,
+                "LINE_B": 8000.0
+            }
+        },
+        {
+            "product_id": "TABLET",
+            "product_name": "Tablet",
+            "material_cost": 200000.0,
+            "selling_price": 350000.0,
+            "target_production": 150.0,
+            "min_demand": 80.0,
+            "max_defect_rate": 0.04,
+            "material_supply_limit": 300.0,
+            "production_times": {
+                "LINE_A": 12.0,
+                "LINE_B": 18.0
+            },
+            "setup_times": {
+                "LINE_A": 45.0,
+                "LINE_B": 60.0
+            },
+            "setup_costs": {
+                "LINE_A": 15000.0,
+                "LINE_B": 12000.0
+            }
+        },
+        {
+            "product_id": "EARBUDS",
+            "product_name": "Earbuds",
+            "material_cost": 30000.0,
+            "selling_price": 80000.0,
+            "target_production": 400.0,
+            "min_demand": 200.0,
+            "max_defect_rate": 0.03,
+            "material_supply_limit": 1000.0,
+            "production_times": {
+                "LINE_A": 3.0,
+                "LINE_B": 4.0
+            },
+            "setup_times": {
+                "LINE_A": 15.0,
+                "LINE_B": 20.0
+            },
+            "setup_costs": {
+                "LINE_A": 5000.0,
+                "LINE_B": 4000.0
+            }
+        }
+    ],
+    "최적화_설정": {
+        "optimization_goal": "maximize_profit",
+        "optimization_period": "daily",
+        "optimization_weights": {
+            "cost_weight": 0.3,
+            "profit_weight": 0.4,
+            "production_weight": 0.2,
+            "quality_weight": 0.1
+        }
+    },
+    "제약_조건": {
+        "total_budget": 1000000000,
+        "labor_limit": 100,
+        "quality_requirements": {
+            "max_overall_defect_rate": 0.04
+        }
+    },
+    "GA_파라미터": {
+        "population_size": 80,
+        "generations": 300,
+        "crossover_rate": 0.8,
+        "mutation_rate": 0.05,
+        "elite_ratio": 0.15,
+        "selection_method": "tournament",
+        "tournament_size": 3,
+        "constraint_handling": "penalty_function"
+    }
+}
