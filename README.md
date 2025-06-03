@@ -4,8 +4,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Contributors](https://img.shields.io/badge/Contributors-Welcome-orange.svg)](CONTRIBUTING.md)
 
-**A sophisticated production planning optimization system using genetic algorithms** 
-유전 알고리즘을 활용한 고도화된 생산 계획 최적화 시스템
+# An educational project demonstrating production planning optimization using genetic algorithms
+## 유전 알고리즘을 활용한 생산 계획 최적화 교육용 프로젝트
 
 ---
 
@@ -18,13 +18,13 @@
 - **Quality Optimization** | 품질 최적화
 - **Multi-Objective Weighted Optimization** | 가중치 기반 복합 최적화
 
-### 🧬 Advanced Genetic Algorithm | 고도화된 유전 알고리즘
+### 🧬 Genetic Algorithm Implementation | 유전 알고리즘 구현
 - Tournament, Roulette Wheel, and Rank-based Selection | 토너먼트, 룰렛휠, 순위 기반 선택
 - Adaptive Mutation and Crossover | 적응형 돌연변이 및 교차
 - Constraint Handling (Penalty, Repair, Death Penalty) | 제약 조건 처리
 - Real-time Convergence Analysis | 실시간 수렴 분석
 
-### 📊 Comprehensive Analysis & Reporting | 종합 분석 및 보고
+### 📊 Analysis & Reporting Features | 분석 및 보고 기능
 - **Production Schedule Analysis** | 생산 스케줄 분석
 - **Resource Utilization Insights** | 자원 활용도 인사이트
 - **Profitability Analysis** | 수익성 분석
@@ -260,7 +260,7 @@ product = Product(
 - **Gaussian Mutation** | 가우시안 돌연변이
 - **Elite Preservation** | 엘리트 보존
 
-#### 3. **Advanced Constraint Handling** | 고도화된 제약 조건 처리
+#### 3. **Constraint Handling** | 제약 조건 처리
 - **Capacity Constraints** | 용량 제약
 - **Demand Satisfaction** | 수요 충족
 - **Quality Requirements** | 품질 요구사항
@@ -376,8 +376,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments | 감사의 말
 
-- Inspired by modern production optimization challenges | 현대 생산 최적화 과제에서 영감을 받음
-- Built with love for efficient manufacturing | 효율적인 제조업을 위한 애정으로 제작
+- Project inspired by the study of production optimization problems | 생산 최적화 문제 학습에서 영감을 받아 진행된 프로젝트입니다.
+- Developed as a learning exercise in efficient system design | 효율적인 시스템 설계를 위한 학습 연습으로 개발되었습니다.
 - Thanks to the open-source community | 오픈소스 커뮤니티에 감사
 
 ---
@@ -389,13 +389,13 @@ For detailed documentation, please visit our [Wiki](https://github.com/yourusern
 
 ---
 
-## 🔮 Future Enhancements | 향후 개선사항
+## 📚 Potential Future Learning | 향후 학습 확장 아이디어
 
-- [ ] Machine Learning-based Parameter Tuning | 머신러닝 기반 파라미터 튜닝
-- [ ] Real-time Data Integration | 실시간 데이터 통합
-- [ ] Multi-site Optimization | 다중 사이트 최적화
-- [ ] Advanced Visualization with Plotly | Plotly를 활용한 고급 시각화
-- [ ] REST API Development | REST API 개발
+- [ ] Explore Machine Learning-based Parameter Tuning | 머신러닝 기반 파라미터 튜닝 탐색
+- [ ] Investigate Real-time Data Integration | 실시간 데이터 통합 연구
+- [ ] Study Multi-site Optimization | 다중 사이트 최적화 학습
+- [ ] Experiment with Advanced Visualization using Plotly | Plotly를 활용한 고급 시각화 실험
+- [ ] Learn about REST API Development | REST API 개발 알아보기
 
 ---
 
