@@ -374,21 +374,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments | 감사의 말
-
-- Inspired by modern production optimization challenges | 현대 생산 최적화 과제에서 영감을 받음
-- Built with love for efficient manufacturing | 효율적인 제조업을 위한 애정으로 제작
-- Thanks to the open-source community | 오픈소스 커뮤니티에 감사
-
----
-
-## 📚 Documentation | 문서
-
-For detailed documentation, please visit our [Wiki](https://github.com/yourusername/production-optimization-system/wiki).
-자세한 문서는 [위키](https://github.com/yourusername/production-optimization-system/wiki)를 참조하세요.
-
----
-
 ## 🔮 Future Enhancements | 향후 개선사항
 
 - [ ] Machine Learning-based Parameter Tuning | 머신러닝 기반 파라미터 튜닝
